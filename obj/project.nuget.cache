@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "53IiIsLFDbE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Área de Trabalho\\TrabalhoFinalCompPervUbiqua\\APILeituraArduino\\APILeituraArduino.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.6\\runtime.android-arm.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.6\\runtime.android-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\9.0.6\\runtime.android-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\9.0.6\\runtime.android-x86.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\9.0.6\\runtime.linux-arm.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\9.0.6\\runtime.linux-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\9.0.6\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\9.0.6\\runtime.linux-bionic-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\9.0.6\\runtime.linux-musl-arm.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\9.0.6\\runtime.linux-musl-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\9.0.6\\runtime.linux-musl-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\9.0.6\\runtime.linux-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\9.0.6\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\9.0.6\\runtime.maccatalyst-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.native.system.io.ports\\9.0.6\\runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\9.0.6\\runtime.osx-arm64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\9.0.6\\runtime.osx-x64.runtime.native.system.io.ports.9.0.6.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.io.ports\\9.0.6\\system.io.ports.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
