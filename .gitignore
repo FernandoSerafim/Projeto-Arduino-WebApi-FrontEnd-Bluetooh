@@ -1,17 +1,49 @@
-# Ignore pastas e arquivos do Visual Studio
-.vs/
-*.user
-*.suo
-
-# Ignore pastas de build
+# Build artifacts
 bin/
 obj/
 
-# Arquivos de build intermediário
-*.v8.bin
-*.props
-*.targets
-*.vsidx
-*.suo
+# VS Code
+.vscode/
 
-/.vs/APILeituraArduino/v17/.suo
+# VS
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+*.csproj.user
+
+# Others
+*.dbmdl
+*.dbproj.schemaview
+*.sdf
+*.class
+*.tmp
+*.bak
+*.backup
+*.log
+*.vsidx
+
+# Web
+staticwebassets.build.json
+staticwebassets.runtime.json
+
+# OS specific
+.DS_Store
+Thumbs.db
