@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arduino Solar Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Rastreamento Solar com Arduino</h1>
+  </header>
+
+  <div class="info-container">
+    <div class="info-box">
+      <strong>🔋 Voltagem</strong>
+      <span id="voltagem">--V</span>
+    </div>
+    <div class="info-box">
+      <strong>📍 Posição</strong>
+      <span id="posicao">--°</span>
+    </div>
+  </div>
+
+  <div class="barra-container">
+    <div class="barra-eficiencia">
+      <div id="barraInterna" class="barra-eficiencia-inner" style="width: 0%">0%</div>
+    </div>
+  </div>
+
+  <p class="erro" id="erro"></p>
+
+  <div class="tabela-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Horário</th>
+          <th>Voltagem (V)</th>
+          <th>Posição (°)</th>
+        </tr>
+      </thead>
+      <tbody id="historico"></tbody>
+    </table>
+  </div>
+
+  <div class="grafico-container">
+    <h3 style="color: #00e5ff; text-align:center;">📈 Gráfico de Voltagem e Posição</h3>
+    <canvas id="grafico" height="100"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

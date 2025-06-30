@@ -45,6 +45,7 @@ namespace APILeituraArduino.Controllers
                 serialPort.Open();
 
                 string dados = serialPort.ReadLine();
+                //string dados = "129;69\r";
 
                 string[] valores = dados.Replace("\r", "").Split(';');
 
@@ -53,7 +54,7 @@ namespace APILeituraArduino.Controllers
                     int voltagem = int.Parse(valores[0].Trim());
                     int posicao = int.Parse(valores[1].Trim());
 
-                    return Ok(new { Voltagem = voltagem, Posição = posicao });
+                    return Ok(new { Voltagem = voltagem, Posicao = posicao });
                 }
                 else
                 {
