@@ -1,0 +1,17 @@
+# Ignore pastas e arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+
+# Ignore pastas de build
+bin/
+obj/
+
+# Arquivos de build intermediário
+*.v8.bin
+*.props
+*.targets
+*.vsidx
+*.suo
+
+/.vs/APILeituraArduino/v17/.suo

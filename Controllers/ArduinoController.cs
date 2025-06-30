@@ -46,7 +46,19 @@ namespace APILeituraArduino.Controllers
 
                 string dados = serialPort.ReadLine();
 
-                return Ok(new { valores = dados });
+                string[] valores = dados.Replace("\r", "").Split(';');
+
+                if (valores.Length == 2)
+                {
+                    int voltagem = int.Parse(valores[0].Trim());
+                    int posicao = int.Parse(valores[1].Trim());
+
+                    return Ok(new { Voltagem = voltagem, Posição = posicao });
+                }
+                else
+                {
+                    throw new Exception("Dados inválidos recebidos do Arduino.");
+                }
             }
 
             catch (Exception ex)
